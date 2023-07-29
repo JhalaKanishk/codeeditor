@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE EDITOR ~ Kanishk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/023047 (1).png">
+    <script src="https://kit.fontawesome.com/b156bce89f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+
+            <label><i class="fa-brands fa-html5" style="color:#fb8500;"></i> HTML</label>
+            <textarea id="html-code" onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-css3-alt" style="color:dodgerblue;"></i> CSS</label>
+            <textarea id="css-code"  onkeyup="run()"></textarea>
+
+            <label><i class="fa-brands fa-square-js" style="color:#ffd60a;"></i> JS</label>
+            <textarea id="js-code"  onkeyup="run()"></textarea>
+
+        </div>
+        <div class="right">
+            <label><i class="fa-sharp fa-solid fa-play" style="color:#2bff00;"></i> Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
